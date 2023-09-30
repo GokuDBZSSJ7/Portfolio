@@ -23,3 +23,9 @@ h2{
 .top{
     margin-top: 60px;
 }
+
+@media screen and (max-width: 760px){
+    img{
+        margin: 20px !important;
+    }
+}

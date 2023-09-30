@@ -88,3 +88,10 @@ div{
         display: none;
     }
 }
+
+@media screen and (max-width: 480px){
+    .sobre{
+        position: relative;
+        left: 30px;
+    }
+}

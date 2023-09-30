@@ -28,3 +28,14 @@ img{
 .rows{
     display: flex;
 }
+
+@media screen and (max-width: 480px){
+    .rows{
+        flex-direction: column;
+    }
+
+    img{
+        width: 80%;
+        margin: 20px auto;
+    }
+}
